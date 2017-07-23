@@ -49,6 +49,7 @@ import { InstallationsComponent } from './media/threed/installations/installatio
 import { SculpturesComponent } from './media/threed/sculptures/sculptures.component';
 import { BodyLandscapeComponent } from './media/twod/books/body-landscape/body-landscape.component';
 import { DenDolderprojComponent } from './projects/den-dolderproj/den-dolderproj.component';
+import { FridoprojComponent } from './projects/fridoproj/fridoproj.component';
 
 
 const routes: Routes = [
@@ -244,6 +245,10 @@ const routes: Routes = [
    {
    path: 'projects/den-dolderproj',
    component: DenDolderprojComponent
+ },
+   {
+   path: 'projects/fridoproj',
+   component: FridoprojComponent
  }
 
 

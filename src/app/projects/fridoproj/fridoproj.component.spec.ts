@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FridoComponent } from './frido.component';
+import { FridoprojComponent } from './fridoproj.component';
 
-describe('FridoComponent', () => {
-  let component: FridoComponent;
-  let fixture: ComponentFixture<FridoComponent>;
+describe('FridoprojComponent', () => {
+  let component: FridoprojComponent;
+  let fixture: ComponentFixture<FridoprojComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FridoComponent ]
+      declarations: [ FridoprojComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FridoComponent);
+    fixture = TestBed.createComponent(FridoprojComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
