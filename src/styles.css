@@ -6,7 +6,16 @@
   display:none;
 }
 
+.big{
+  font-size: 3em;
+}
+.notification{
+  background-color: transparent;
+}
 
+.title, .subtitle {
+  font-family: Helvetica;
+}
 
 a{
   text-decoration: none;
@@ -207,6 +216,9 @@ img.hero{
     right: 0;  
     margin: auto;
     z-index: -1;
+  }
+  .ciao ,.ciao2{
+    transition: all 1s;
   }
  @media (max-width: 900px) {
   .navbarr{

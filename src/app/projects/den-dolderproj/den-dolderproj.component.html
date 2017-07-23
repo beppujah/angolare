@@ -1,40 +1,99 @@
- <a routerLink="/projects"  class="is-home logo"><span class="glyphicon glyphicon-fast-backward" aria-hidden="false"></span></a>
+ <a routerLink="/../projects"  class="is-home logo"><span class="glyphicon glyphicon-fast-backward" aria-hidden="false"></span></a>
  
 	
-	<div class="has-text-centered  is-gapless" >
+	<div class=" tile is-ancestor has-text-centered  is-gapless" >
 
-	<div class="tile">
-  <div class="column is-12">
+	
+
+</div>
+<div class="column is-12  ">
+ <h1 class="title"></h1>
+  </div>
+   <div class="column is-12  ">
+ <h1 class="title"></h1>
+  </div>
+	<div class="tile is-parent notification has-text-centered ">
  
-  </div>
+   <div class="column is-12  ">
+ <h1 class="notification title big">This is a projects page</h1>
+  </div> 
+</div>
+	<div class="tile is-parent">
+  <div class="tile is-child notification  ">
+  <h5 class="title">This is a photo </h5><p class="subtitle"> you can access also truught media/2d/photo/den-dolder<br> in theory </p>
+  <button (click)="toggleModal = !toggleModal;" class="button is-warning">click on the image to see the modal</button>
 
-</div>
-	<div class="tile ">
-  <div class="column is-12 ">
- <h1>This is a projects page</h1>
+<div class="modal hand " [ngClass]="{'is-active': toggleModal}">
+  <div (click)="toggleModal = !toggleModal;" class="modal-background"></div>
+  <div class="modal-content">
+    <p class="image is-4by3">
+      <img src="http://beppujah.com/enrico2/assets/dd-book-0-4.jpg">
+    </p>
   </div>
-  
+  <button (click)="toggleModal = !toggleModal;" class="modal-close is-large "></button>
 </div>
-	<div class="tile">
-  <div class="column is-12">
-  <h5>this is a photo you can access also truught media/2d/photo/den-dolder</h5>
- <img src="/assets/dd-book-0-4.jpg">
-  </div>
-  
-</div>
-	<div class="tile">
-  <div class="column is-12">
- <code>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+
+
+ <a (click)="toggleModal = !toggleModal;" class=" tile photohand is-child" style=" display: block; height: 400px; background-repeat: no-repeat; background-position: center; background-size: contain; background-image: url('http://beppujah.com/enrico2/assets/dd-book-0-4.jpg')">
+  </a>
+  <div class="tile is-child   notification ">
+ <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
- proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</code>
+ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
   </div>
-  
 </div>
+	<div class="tile is-child notification">
+  <div class="tile is-child   notification ">
+  <p class="title">Titolo del progetto</p>
+  <p class="subtitle">Subtitle del progetto</p>
+ <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+  </div>
+   <div class="tile is-parent">
+  <div class="tile is-child notification  ">
+  <h5 class="title">This is a video</h5><p class="subtitle"> you can access also truught media/2d/video/den-dolder<br> in theory if there is one </p>
+  <button (click)="toggleModal2 = !toggleModal2;" class="button is-warning">click on the video to see the modal</button>
+
+<div class="modal hand " [ngClass]="{'is-active': toggleModal2}">
+  <div (click)="toggleModal2 = !toggleModal2;" class="modal-background"></div>
+  <div class="modal-content">
+
+      <video width="100%" controls autoplay>
+  <source src="http://enricogarzaro.com//cube/big%20book%20281.mp4" type="video/mp4">
   
+  Your browser does not support the video tag.
+</video>
+  
+  </div>
+  <button (click)="toggleModal2 = !toggleModal2;" class="modal-close is-large "></button>
+</div>
+
+
+ <a (click)="toggleModal2 = !toggleModal2;" class=" tile photohand is-child" style=" display: block; height: 400px; background-repeat: no-repeat; background-position: center; background-size: contain; background-image: url('http://beppujah.com/enrico2/assets/dd-book-0-4.jpg')">
+  </a>
+  <div class="tile is-child   notification ">
+ <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+  </div>
+</div>
+</div>
+
+
+
 
 	
 
 </div>
+
+

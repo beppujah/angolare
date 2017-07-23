@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DenDolderprojComponent implements OnInit {
 
+	toggleModal: boolean=false;
+
+toggleModal2: boolean=false;
+
+
   constructor() { }
 
   ngOnInit() {
