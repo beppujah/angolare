@@ -51,6 +51,7 @@ import { TemporaryComponent } from './media/threed/installations/temporary/tempo
 import { InstallationsComponent } from './media/threed/installations/installations.component';
 import { SculpturesComponent } from './media/threed/sculptures/sculptures.component';
 import { BodyLandscapeComponent } from './media/twod/books/body-landscape/body-landscape.component';
+import { DenDolderprojComponent } from './projects/den-dolderproj/den-dolderproj.component';
 
 
 
@@ -104,7 +105,8 @@ import { BodyLandscapeComponent } from './media/twod/books/body-landscape/body-l
     TemporaryComponent,
     InstallationsComponent,
     SculpturesComponent,
-    BodyLandscapeComponent
+    BodyLandscapeComponent,
+    DenDolderprojComponent
   ],
   imports: [
     BrowserModule,

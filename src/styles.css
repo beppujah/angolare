@@ -137,7 +137,7 @@ transition: all 0.2s;
 }
 
 .logo{
-  position:absolute;
+  position:fixed;
   left: 35px;
   top:10px;
 
@@ -195,12 +195,12 @@ html{
 
   
 }
-img{
+img.hero{
      max-height: 100%;  
     max-width: 100%; 
     width: auto;
     height: auto;
-    position: absolute;  
+    position: relative;  
     top: 0;  
     bottom: 0;  
     left: 0;  

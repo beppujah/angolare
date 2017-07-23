@@ -48,7 +48,7 @@ import { TemporaryComponent } from './media/threed/installations/temporary/tempo
 import { InstallationsComponent } from './media/threed/installations/installations.component';
 import { SculpturesComponent } from './media/threed/sculptures/sculptures.component';
 import { BodyLandscapeComponent } from './media/twod/books/body-landscape/body-landscape.component';
-
+import { DenDolderprojComponent } from './projects/den-dolderproj/den-dolderproj.component';
 
 
 const routes: Routes = [
@@ -89,7 +89,7 @@ const routes: Routes = [
    component: OldComponent 
    },
  {
-   path: 'media/twod/photo/portrait',
+   path: 'media/twod/photo/portraits',
    component: PortraitsComponent 
    },
  {
@@ -240,6 +240,10 @@ const routes: Routes = [
    {
    path: 'media/twod/books/body-landscape',
    component: BodyLandscapeComponent
+ },
+   {
+   path: 'projects/den-dolderproj',
+   component: DenDolderprojComponent
  }
 
 
