@@ -5,6 +5,10 @@
 ::-webkit-scrollbar {
   display:none;
 }
+.modal-content{
+  border-radius: 0px;
+  border:none;
+}
 
 .big{
   font-size: 3em;
