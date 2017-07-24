@@ -113,6 +113,7 @@ import { FridoprojComponent } from './projects/fridoproj/fridoproj.component';
     BrowserModule,
     AppRoutingModule,
 
+
   ],
   providers: [],
   bootstrap: [AppComponent]
