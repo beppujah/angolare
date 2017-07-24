@@ -1,6 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import 'https://fonts.googleapis.com/css?family=Inconsolata';
+video {
+    width: 100%;
+    height: auto;
+}
+.white-text{
+  color:#f3f3f3;
+
+}
+.white-text:hover{
+  color:#f3f3f3;
+
+}
+.full{
+  width: 100vw;
+  height: 100vh;
+}
 
 ::-webkit-scrollbar {
   display:none;
@@ -9,14 +25,21 @@
   border-radius: 0px;
   border:none;
 }
+.medio{
+ padding-left: 20%;
+ padding-right: 20%;
+}
+.medio-grande{
+ padding-left: 10%;
+ padding-right: 10%;
+}
 
 .big{
   font-size: 3em;
 }
-.notification{
-  background-color: transparent;
+.video-container{
+  padding: 20%;
 }
-
 .title, .subtitle {
   font-family: Helvetica;
 }
@@ -26,13 +49,16 @@ a{
   color:#0c0c0c;
 }
 
-
+.black{
+  background-color: #0c0c0c;
+}
 a:hover{
   text-decoration: none;
   color:#0c0c0c;
   
   
 }
+
 a:active:after{
    text-decoration: none;
 }
