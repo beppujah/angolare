@@ -13,6 +13,14 @@ video {
   color:#f3f3f3;
 
 }
+.fleur{
+  background-image: url('http://enricogarzaro.com/img/fleur_tumb.png');
+  width: 5em;
+  height: 5em;
+  background-size: contain;
+  border:none;
+  
+}
 .full{
   width: 100vw;
   height: 100vh;
