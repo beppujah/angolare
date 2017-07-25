@@ -12,6 +12,8 @@ export class VideoComponent implements OnInit {
 
 	toggleModal3: boolean=false;
 
+	toggleCursor: boolean=false;
+
   constructor() { }
 
   ngOnInit() {}

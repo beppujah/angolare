@@ -13,8 +13,11 @@ video {
   color:#f3f3f3;
 
 }
-video{
+.play{
   cursor: url('http://enricogarzaro.com/img/play.png'), auto;
+}
+.pause{
+  cursor: url('http://enricogarzaro.com/img/pause.png'), auto;
 }
 
 .fleur{
