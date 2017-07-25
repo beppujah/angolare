@@ -1,7 +1,7 @@
  <a routerLink="/media/twod"  class="is-home logo white-text"><span class="glyphicon glyphicon-fast-backward" aria-hidden="false"></span></a>
  
 	
-	<div class="hero is-fullheight has-text-centered  is-gapless" style="filter:grayscale(100%) invert() sepia() invert() ;background-position: center; background-size: cover; background-image: url('http://beppujah.com/enrico2/assets/dd-book-0-4.jpg');">
+	<div class="hero is-fullheight has-text-centered  is-gapless" style=" ;background-position: center; background-size: cover; background-image: url('http://beppujah.com/enrico2/assets/dd-book-0-4.jpg');">
 
 	<div class="tile">
   <div class="column is-12">
@@ -38,15 +38,17 @@
 			<div class="column"><a (click)="toggleModal3 = !toggleModal3;"      class="button is-outlined is-large is-danger fleur ">FLEUR</a></div>
 
 			<div class="modal " [ngClass]="{'is-active': toggleModal3}">
-  <div (click)="toggleModal3 = !toggleModal3;" class="modal-background"></div>
+  <div (click)="toggleModal3 = !toggleModal3; stopVideo()" class="modal-background"></div>
   <div class="modal-content">
 
-      <video width="100%" controls mute >
+      <video 
+ #videoFleur (click)="toggleVideo()"   width="100%" >
   <source src="http://enricogarzaro.com/video/fleur.mp4" type="video/mp4">
   
   Your browser does not support the video tag.
-</video>
-  
+
+  </video>
+
   </div>
   <button (click)="toggleModal3 = !toggleModal3;" class="modal-close is-large "></button>
 </div>

@@ -13,6 +13,10 @@ video {
   color:#f3f3f3;
 
 }
+video{
+  cursor: url('http://enricogarzaro.com/img/play.png'), auto;
+}
+
 .fleur{
   background-image: url('http://enricogarzaro.com/img/fleur_tumb.png');
   width: 5em;
