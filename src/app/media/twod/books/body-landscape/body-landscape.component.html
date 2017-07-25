@@ -1,3 +1,54 @@
-<p>
-  body-landscape works!
-</p>
+<div style="background-color: black;">
+<div class="firsthalf" (click)="toggleModal4 = !toggleModal4;" style=" "></div>
+<div class="secondhalf " style="">
+
+<div style="padding: 20px; padding-top: 20%; height: 100vh; background-color: black; ">
+
+<div class="title" style="font-size:27px; text-align: right; padding-right: 30px; color: #FC939B;" >BODY<br> LANDSCAPE</div>
+
+<div style="color: #C1F7EF; padding: 30px; padding-top:20px;font-size: 14px; font-family: 'Avenir Next">
+	while reading a topography book it  might happen to turn your eyes to your 
+hand, then to your tumb as you contiinue staring at it.
+You uncounciosness overpose the images you just saw and you wonder if yuo 
+ill be  ever able to find the land your that thumb hides and represent.   
+the body can be seen as a map a ,
+ a map a territory
+</div>
+</div>
+
+</div>
+	
+</div>
+
+
+
+<div class="modal hand " [ngClass]="{'is-active': toggleModal4}">
+  <div (click)="toggleModal4 = !toggleModal4;" class="modal-background"></div>
+  <div class="modal-content">
+    <p class="image is-4by3">
+      <img src="http://beppujah.com/enrico2/assets/dd-book-0-4.jpg">
+      
+      
+    </p>
+
+
+  </div>
+  <span (click)="toggleModal4 = !toggleModal4; toggleModal5 = !toggleModal5;  " style="color: white; opacity: 1; margin-right: 20px;" class="glyphicon glyphicon-chevron-right" aria-hidden="false"></span>
+  <button (click)="toggleModal4 = !toggleModal4;" class="modal-close is-large "></button>
+
+</div>
+
+
+<div class="modal hand " [ngClass]="{'is-active': toggleModal5}">
+  <div (click)="toggleModal5 = !toggleModal5;" class="modal-background"></div>
+  <div class="modal-content">
+    <p class="image is-4by3">
+      <img src="http://enricogarzaro.com/img/bodylandscape.png">
+      
+      
+    </p>
+  </div>
+  <span (click)="toggleModal4 = !toggleModal4; toggleModal5 = !toggleModal5;  " style="color: white; opacity: 1; position: absolute; top:50%; left: 20px;" class="glyphicon glyphicon-chevron-left" aria-hidden="false"></span>
+  <button (click)="toggleModal5 = !toggleModal5;" class="modal-close is-large "></button>
+
+</div>

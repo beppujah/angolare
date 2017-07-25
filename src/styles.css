@@ -13,6 +13,8 @@ video {
   color:#f3f3f3;
 
 }
+
+
 .play{
   cursor: url('http://enricogarzaro.com/img/play.png'), auto;
 }
@@ -61,18 +63,84 @@ video {
 
 a{
   text-decoration: none;
-  color:#0c0c0c;
+  color:#888888;
 }
+
 
 .black{
   background-color: #0c0c0c;
 }
+.red{
+  background-color: red;
+}
+.transparent{
+  opacity: 0.5;
+}
 a:hover{
   text-decoration: none;
-  color:#0c0c0c;
+  color:#888888;
+  
   
   
 }
+
+
+.linkBook:hover:before{
+
+  content: "";
+  border-radius: 50%;
+ 
+  background-image: url('https://vignette2.wikia.nocookie.net/uncyclopedia/images/1/17/Static.gif/revision/latest?cb=20051028174517');
+ 
+  height: 7vw;
+  width: 7vw;
+
+  right:-3vw;
+  bottom: 7vw;
+  position: absolute;
+  
+  
+  
+}
+.linkBook:hover span:before{
+
+  content: "";
+  border-radius: 50%;
+ 
+  background-image: url('https://vignette2.wikia.nocookie.net/uncyclopedia/images/1/17/Static.gif/revision/latest?cb=20051028174517');
+ 
+  height: 2.5vw;
+  width: 2.5vw;
+
+  left:19vw;
+  top: 16vw;
+  position: absolute;
+
+  
+  
+}
+.linkBook:hover div:before{
+
+  content: "";
+  border-radius: 50%;
+ 
+  background-image: url('https://vignette2.wikia.nocookie.net/uncyclopedia/images/1/17/Static.gif/revision/latest?cb=20051028174517');
+ 
+  height: 5vw;
+  width: 5vw;
+
+  left:22vw;
+  top:18vw;
+  position: absolute;
+  
+  
+  
+}
+
+
+
+
+
 
 a:active:after{
    text-decoration: none;
@@ -248,6 +316,9 @@ html{
  
 
   
+}
+.green{
+  background-color: green;
 }
 img.hero{
      max-height: 100%;  

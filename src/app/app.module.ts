@@ -53,6 +53,8 @@ import { SculpturesComponent } from './media/threed/sculptures/sculptures.compon
 import { BodyLandscapeComponent } from './media/twod/books/body-landscape/body-landscape.component';
 import { DenDolderprojComponent } from './projects/den-dolderproj/den-dolderproj.component';
 import { FridoprojComponent } from './projects/fridoproj/fridoproj.component';
+import { PentaxComponent } from './media/twod/book/pentax/pentax.component';
+import { PentaxxComponent } from './media/twod/books/pentaxx/pentaxx.component';
 
 
 @NgModule({
@@ -107,7 +109,9 @@ import { FridoprojComponent } from './projects/fridoproj/fridoproj.component';
     SculpturesComponent,
     BodyLandscapeComponent,
     DenDolderprojComponent,
-    FridoprojComponent
+    FridoprojComponent,
+    PentaxComponent,
+    PentaxxComponent
   ],
   imports: [
     BrowserModule,

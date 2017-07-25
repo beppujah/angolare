@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BodyLandscapeComponent implements OnInit {
 
+	toggleModal4: boolean=false;
+	toggleModal5: boolean=false;
+
   constructor() { }
 
   ngOnInit() {

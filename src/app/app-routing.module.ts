@@ -51,6 +51,7 @@ import { BodyLandscapeComponent } from './media/twod/books/body-landscape/body-l
 import { DenDolderprojComponent } from './projects/den-dolderproj/den-dolderproj.component';
 import { FridoprojComponent } from './projects/fridoproj/fridoproj.component';
 
+import { PentaxxComponent } from './media/twod/books/pentaxx/pentaxx.component';
 
 const routes: Routes = [
   {
@@ -249,6 +250,10 @@ const routes: Routes = [
    {
    path: 'projects/fridoproj',
    component: FridoprojComponent
+ },
+   {
+   path: 'media/twod/books/pentaxx',
+   component: PentaxxComponent
  }
 
 
