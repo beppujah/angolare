@@ -38,11 +38,10 @@
 			<div class="column"><a (click)="toggleModal3 = !toggleModal3;"      class="button is-outlined is-large is-danger fleur ">FLEUR</a></div>
 
 			<div class="modal " [ngClass]="{'is-active': toggleModal3}">
-  <div (click)="toggleModal3 = !toggleModal3; stopVideo()" class="modal-background"></div>
+  <div (click)="toggleModal3 = !toggleModal3; stopVideo($event)" class="modal-background"></div>
   <div class="modal-content">
 
-      <video 
- #videoFleur (click)="toggleVideo()"   width="100%" >
+      <video #videoFleur (click)="toggleVideo($event)"   width="100%" >
   <source src="http://enricogarzaro.com/video/fleur.mp4" type="video/mp4">
   
   Your browser does not support the video tag.

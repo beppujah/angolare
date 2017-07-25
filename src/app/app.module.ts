@@ -118,4 +118,9 @@ import { FridoprojComponent } from './projects/fridoproj/fridoproj.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+
+
+
+
+}
