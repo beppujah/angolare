@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CollagesComponent implements OnInit {
 
+		toggleShrink: boolean=false;
+
   constructor() { }
 
   ngOnInit() {

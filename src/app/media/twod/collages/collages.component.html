@@ -1,3 +1,15 @@
-<p>
-  collages works!
-</p>
+<div class=" collage-background">
+<div class="collage1tumb tumb"></div>
+<div class="collage2tumb tumb" [ngClass]="{'shrinkato2': toggleShrink}" (click)="toggleShrink = !toggleShrink;" ></div>
+<div class="collage3tumb tumb" [ngClass]="{'shrinkato3': toggleShrink}" (click)="toggleShrink = !toggleShrink;"></div>
+<div class="collage4tumb tumb"></div>
+<div class="collage5tumb tumb"></div>
+<div class="collage6tumb tumb"></div>
+
+<div class="collage7tumb tumb"></div>
+	<img  class="sfondo" [ngClass]="{'shrinkato': toggleShrink}" src="http://enricogarzaro.com/img/vredeman-de-vries-perspective-grid%20copy.png">
+	
+</div>
+
+<img  class="nascosta1" [ngClass]="{'visibile': toggleShrink}" src="http://enricogarzaro.com/img/vredeman-de-vries-perspective-grid%20copy.png">
+<img  class="nascosta2" [ngClass]="{'visibile': toggleShrink}" src="http://enricogarzaro.com/img/vredeman-de-vries-perspective-grid%20copy.png">
