@@ -1,115 +1,240 @@
-.collage-background{
-	width: 100vw;
+body{
 	height: 100vh;
 	
 }
+
+img{
+	transition: all 0.3s;
+}
+
+
+
+.collage-background{
+
+	width: 100vw;
+	height: 100vh;
+	
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	
+
+}
 .sfondo{
-	position: absolute;
+
 	pointer-events: none;
-	opacity: 1;
+	
 	transition: all 0.8s;
-	padding:0vw;
+	margin-left: 0;
+
+	margin-right: 0;
+position: relative;
+	max-height: 100vh;
+	
+	z-index: 99;
+	
+
+}
+.tumb-container{
+
+
+
+ 
+
+	position:absolute;
+	
+
+width: 100vw;
+height: 100vh;
+max-height: 64vw ;
+max-width: 153vh ;
+
+ margin: 0 auto;
+  left: 0;
+  right: 0;
+
+
+}
+.sub-container{
+
+
+	position:static;
+
+
+width: 100vw;
+height: 100vh;
+max-height: 64vw ;
+max-width: 153vh ;
+
+	 margin: 0 auto;
+  left: 0;
+  right: 0;
+
+
 }
 .tumb{
 	position: absolute;
 	background-size: cover;
 	transition: all 0.8s;
+
 	
 	
 }
 
-.shrinkato{
-	
-	padding-left:20vw;
-	padding-right:20vw;
 
-}
-.nascosta2{
-	position: absolute;
-	top:150vw;
-	right:5vw;
-	width: 60vw;
 
-	display: none;
-}
 
-.nascosta1{
-	position: absolute;
-	top:100vw;
-	right:5vw;
-	width: 60vw;
 
-	display: none;
-}
-.visibile{
-	display: block;
-}
+
+
+
 
 .tumb:hover{
  
  
-	filter: hue-rotate(90deg);
+	filter: invert();
 }
 
 .collage1tumb{
-	width: 5vw;
-	height: 25vw;
-	top:27vw;
-	left:28.5vw;
+	width: 5%;
+	height: 40%;
+	top:41%;
+	left:28.5%;
 	background-color: #F2F284;
+
 }
+.shrinkato1{
+	height: 200vh;
+}
+.nascosta1{
+	position: absolute;
+	top:241%;
+	right: 5%;
+	width: 80%;
+	height: auto;
+	display: none;
+}
+
+
 .collage2tumb{
-	width: 5vw;
-	height: 6vw;
-	top:16vw;
-	left: 26vw;
+	width: 5%;
+	height: 12%;
+	top:23%;
+	left: 26%;
 	background-color: #F49494;
 }
 .shrinkato2{
-	width: 6vw;
-	height: 150vw;
-	top:8vw;
-	left: 32vw;
-	background-color: #9AFAEB;
+	height: 150vh;
+}
+.nascosta2{
+	position: absolute;
+	top:173%;
+	left:5%;
+	width: 40%;
+	height: auto;
+
+	display: none;
 }
 .collage3tumb{
-	width: 10vw;
-	height: 10vw;
-	top:17vw;
-	left: 52vw;
+	width: 6.5%;
+	height: 8.5%;
+	top:32%;
+	left: 54%;
 	background-color: #9AFAEB;
 }
 .shrinkato3{
-	width: 6vw;
-	height: 100vw;
-	top:9.5vw;
-	left: 52vw;
-	background-color: #9AFAEB;
+	height: 300vh;
 }
+.nascosta3{
+	position: absolute;
+	top:332%;
+	right:5vw;
+	width: 60vw;
+
+	display: none;
+}
+
 .collage4tumb{
-	width: 5vw;
-	height: 6vw;
-	top:17vw;
-	left: 78vw;
+	width: 5%;
+	height: 6%;
+	top:29%;
+	left: 78%;
 	background-color: #BBCDFC;
 }
+.shrinkato4{
+	height: 350vh;
+}
+
+.nascosta4{
+	position: absolute;
+	top:379%;
+	right:5vw;
+	width: 60vw;
+
+	display: none;
+}
 .collage5tumb{
-	width: 10vw;
-	height: 40.5vw;
-	top:23.5vw;
-	left: 79vw;
+	width: 10%;
+	height: 65%;
+	top:35%;
+	left: 79%;
 	background-color: #ADFFB0;
 }
+.shrinkato5{
+	height: 250vh;
+}
+.nascosta5{
+	position: absolute;
+	top:285vh;
+	right:5vw;
+	width: 60vw;
+	height: auto;
+
+	display: none;
+}
 .collage6tumb{
-	width: 5vw;
-	height: 12vw;
-	top:9vw;
-	
+	width: 7%;
+	height: 19%;
+	top:14%;
+	left: -1%;
 	background-color: #BBFCE5;
 }
+.shrinkato6{
+	height: 350vh;
+}
+.nascosta6{
+	position: absolute;
+	top:364%;
+	left:0;
+	width: 40vw;
+
+	display: none;
+}
+
+
+
 .collage7tumb{
-	width: 5vw;
-	height: 12vw;
-	top:22vw;
+	width: 7%;
+	height: 20%;
+	top:34%;
+	left: -1%;
+	margin-left: 0;
 	background-color: #E3C6DE;
+}
+.shrinkato7{
+	height: 70vh;
+}
+.nascosta7{
+	position: absolute;
+	top:104%;
+	left:0;
+	width: 60vw;
+
+	display: none;
+}
+
+
+
+.visibile{
+	display: block;
 }

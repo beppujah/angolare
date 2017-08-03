@@ -1,15 +1,40 @@
-<div class=" collage-background">
-<div class="collage1tumb tumb"></div>
-<div class="collage2tumb tumb" [ngClass]="{'shrinkato2': toggleShrink}" (click)="toggleShrink = !toggleShrink;" ></div>
-<div class="collage3tumb tumb" [ngClass]="{'shrinkato3': toggleShrink}" (click)="toggleShrink = !toggleShrink;"></div>
-<div class="collage4tumb tumb"></div>
-<div class="collage5tumb tumb"></div>
-<div class="collage6tumb tumb"></div>
 
-<div class="collage7tumb tumb"></div>
-	<img  class="sfondo" [ngClass]="{'shrinkato': toggleShrink}" src="http://enricogarzaro.com/img/vredeman-de-vries-perspective-grid%20copy.png">
+<div #page class="vh-100" style=" max-height: 100vh"  >
+
+   <div class=" collage-background">
+
+
+	   <div class="tumb-container">
+
+
+		   <div class="sub-con">
+				<div class="collage1tumb tumb" [ngClass]="{'shrinkato1': toggleShrink1}" (mousedown)="toggleShrink1 = !toggleShrink1;" (mouseup)="scrollTo(nascosta1)" ></div>
+
+				<div class="collage2tumb tumb" [ngClass]="{'shrinkato2': toggleShrink2}" (mousedown)="toggleShrink2 = !toggleShrink2;" (mouseup)="scrollTo(nascosta2)" ></div>
+
+				<div class="collage3tumb tumb"  #tumb3  [ngClass]="{'shrinkato3': toggleShrink3}" (mousedown)="toggleShrink3 = !toggleShrink3;" (mouseup)="scrollTo(nascosta3)" ></div>
+
+				<div class="collage4tumb tumb" [ngClass]="{'shrinkato4': toggleShrink4}" (mousedown)="toggleShrink4 = !toggleShrink4;" (mouseup)="scrollTo(nascosta4)"></div>
+
+				<div class="collage5tumb tumb" [ngClass]="{'shrinkato5': toggleShrink5}" (mousedown)="toggleShrink5 = !toggleShrink5;" (mouseup)="scrollTo(nascosta5)"></div>
+
+				<div class="collage6tumb tumb" [ngClass]="{'shrinkato6': toggleShrink6}" (mousedown)="toggleShrink6 = !toggleShrink6;" (mouseup)="scrollTo(nascosta6)"></div>
+
+				<div class="collage7tumb tumb" [ngClass]="{'shrinkato7': toggleShrink7}" (mousedown)="toggleShrink7 = !toggleShrink7;" (mouseup)="scrollTo(nascosta7)"></div>
+			</div>
+		</div>
+
+
+		<img  class="sfondo" [ngClass]="{'shrinkato': toggleShrink}" src="http://enricogarzaro.com/img/vredeman-de-vries-perspective-grid%20copy.png">
+	</div>
+
+	<img  class="nascosta1" #nascosta1 [ngClass]="{'visibile': toggleShrink1}" (click)="toggleShrink1 = !toggleShrink1" src="http://enricogarzaro.com/img/collage1.jpg">
+	<img  class="nascosta2" #nascosta2  [ngClass]="{'visibile': toggleShrink2}" (click)="toggleShrink2 = !toggleShrink2" src="http://enricogarzaro.com/img/collage2.jpg">
+	<img  class="nascosta3" #nascosta3 [ngClass]="{'visibile': toggleShrink3}"  (click)="toggleShrink3 = !toggleShrink3" src="http://enricogarzaro.com/img/collage3.jpg">
+	<img  class="nascosta4" #nascosta4  [ngClass]="{'visibile': toggleShrink4}" (click)="toggleShrink4 = !toggleShrink4" src="http://enricogarzaro.com/img/collage4.jpg">
+	<img  class="nascosta5" #nascosta5 [ngClass]="{'visibile': toggleShrink5}"  (click)="toggleShrink5 = !toggleShrink5" src="http://enricogarzaro.com/img/collage5.jpeg">
+	<img  class="nascosta6" #nascosta6  [ngClass]="{'visibile': toggleShrink6}" (click)="toggleShrink6 = !toggleShrink6" src="http://enricogarzaro.com/img/collage6.jpg">
+	<img  class="nascosta7" #nascosta7 [ngClass]="{'visibile': toggleShrink7}" (click)="toggleShrink7 = !toggleShrink7"  src="http://enricogarzaro.com/img/collage7.jpg">
 	
-</div>
 
-<img  class="nascosta1" [ngClass]="{'visibile': toggleShrink}" src="http://enricogarzaro.com/img/vredeman-de-vries-perspective-grid%20copy.png">
-<img  class="nascosta2" [ngClass]="{'visibile': toggleShrink}" src="http://enricogarzaro.com/img/vredeman-de-vries-perspective-grid%20copy.png">
+</div>

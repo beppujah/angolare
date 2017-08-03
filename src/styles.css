@@ -1,18 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 
+
+
 @import 'https://fonts.googleapis.com/css?family=Inconsolata';
 video {
     width: 100%;
     height: auto;
 }
-.white-text{
-  color:#f3f3f3;
 
-}
-.white-text:hover{
-  color:#f3f3f3;
-
-}
 
 
 .play{
@@ -78,8 +73,8 @@ a{
 }
 a:hover{
   text-decoration: none;
-  color:#C1F7EF;
-  
+
+  color: #ecf0f1;
   
   
 }

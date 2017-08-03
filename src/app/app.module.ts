@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { ScrollToModule } from 'ng2-scroll-to-el';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -116,6 +118,7 @@ import { PentaxxComponent } from './media/twod/books/pentaxx/pentaxx.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+     ScrollToModule.forRoot()
 
 
   ],
